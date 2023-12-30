@@ -1,7 +1,7 @@
 animals = ["cat", "dog", "rabbit", "parrot"]
 print(animals)
 
-fruits = [["tomatoes","oranges"], "apple", "banana", "cherry"]
+fruits = [["tomatoes", "oranges"], "apple", "banana", "cherry"]
 print(fruits[0][1])
 
 # Replace the second item
@@ -12,7 +12,7 @@ animals.sort()
 print(animals)
 
 # Sort the list in descending order
-numbers= [9, 1, 4, 7, 3]
+numbers = [9, 1, 4, 7, 3]
 numbers.sort()
 print(numbers)
 
