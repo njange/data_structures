@@ -8,7 +8,7 @@ print(num)
 num.sort(reverse=True)
 print(num)
 
-list1= ["aa","b","ccc","dddd","e"]
+list1 = ["aa", "b", "ccc", "dddd", ]
 list1.sort()
 print(list1)
 
@@ -16,7 +16,7 @@ print(list1)
 list1.sort(key=len)
 print(list1)
 
-list2= [[1,6],[4,5],[3,4]]
+list2 = [[1, 6], [4, 5], [3, 4]]
 print(list2)
 
 list2.sort()
@@ -40,8 +40,8 @@ list2.sort(key=sum_list)
 print(list2)
 
 # Using sorted method
-list1= ["aa","b","ccc","dddd","e"]
-tuple1= ((10,20),(5,7),(1,3))
+list1 = ["aa", "b", "ccc", "dddd", "e"]
+tuple1 = ((10, 20), (5, 7), (1, 3))
 print(sorted(list1))
 print(list1)
 print(sorted(tuple1))
