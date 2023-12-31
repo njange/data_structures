@@ -23,7 +23,7 @@ print(numbers)
 # Delete the entire list
 del numbers
 
-#Insert an item at a given position
+# Insert an item at a given position
 animals.insert(2, "tiger")
 print(animals)
 
@@ -42,7 +42,7 @@ print(animals)
 fruits = ["apple", "banana", "cherry"]
 print(fruits)
 
-fruits[1]="grapes"
+fruits[1] = "grapes"
 print(fruits)
 
 fruits.insert(1, "orange")
