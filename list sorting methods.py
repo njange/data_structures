@@ -1,10 +1,10 @@
-num = [10,20,5,7,1,3]
+num = [10, 20, 5, 7, 1, 3]
 
-#Sort the list in ascending order
+# Sort the list in ascending order
 num.sort()
 print(num)
 
-#Sort the list in descending order
+# Sort the list in descending order
 num.sort(reverse=True)
 print(num)
 
@@ -12,7 +12,7 @@ list1 = ["aa", "b", "ccc", "dddd", ]
 list1.sort()
 print(list1)
 
-#Sort by length of the string
+# Sort by length of the string
 list1.sort(key=len)
 print(list1)
 
@@ -22,7 +22,7 @@ print(list2)
 list2.sort()
 print(list2)
 
-#Sort by the second item in the sublist
+# Sort by the second item in the sublist
 def second_item(x):
     return x[1]
 list2.sort(key=second_item)
@@ -33,7 +33,7 @@ def SortBySec(element):
 list2.sort(key=SortBySec)
 print(list2)
 
-#Sort by the sum of the sublist
+# Sort by the sum of the sublist
 def sum_list(x):
     return sum(x)
 list2.sort(key=sum_list)
