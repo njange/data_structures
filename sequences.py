@@ -1,5 +1,5 @@
-numbers = [10,20,5,7,1,3]
-numbers2 = (8,3,9,2,5)
+numbers = [10, 20, 5, 7, 1, 3]
+numbers2 = (8, 3, 9, 2, 5)
 name = "John"
 
 # Length operation
@@ -10,7 +10,7 @@ print(len(numbers2))
 
 # Length operation is used to find the number of elements in the sequence
 
-#Select operation
+# Select operation
 print(numbers[0])
 print(numbers2[1])
 print(name[2])
@@ -42,8 +42,8 @@ print("a" in name)
 # Membership operation is used to check if the element is present in the sequence.
 
 # Concatenation operator
-print(numbers + [4,5,6])
-print(numbers2 + (4,5,6))
+print(numbers + [4, 5, 6])
+print(numbers2 + (4, 5, 6))
 print(name + " Doe")
 # Concatenation operator is used to join two sequences.
 
