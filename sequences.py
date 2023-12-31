@@ -35,29 +35,29 @@ print(name.index("h"))
 # Index operation is used to find the index of the first occurence of the element.
 
 
-#Membership operation
+# Membership operation
 print(5 in numbers)
 print(5 in numbers2)
 print("a" in name)
-#Membership operation is used to check if the element is present in the sequence.
+# Membership operation is used to check if the element is present in the sequence.
 
-#Concatenation operator
+# Concatenation operator
 print(numbers + [4,5,6])
 print(numbers2 + (4,5,6))
 print(name + " Doe")
-#Concatenation operator is used to join two sequences.
+# Concatenation operator is used to join two sequences.
 
-#Repetition operator
+# Repetition operator
 print(numbers * 2)
 print(numbers2 * 2)
 print(name * 2)
-#Repetition operator is used to repeat the elements of the sequence.
+# Repetition operator is used to repeat the elements of the sequence.
 
-#Max operation
+# Max operation
 print(max(numbers))
 print(max(numbers2))
 print(max(name))
 
-#Sum operator
+# Sum operator
 print(sum(numbers))
 print(sum(numbers2))
