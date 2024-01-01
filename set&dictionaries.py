@@ -12,4 +12,12 @@ dictionary4["p"] = 7
 print(dictionary4)
 
 # Sets
+set1 = ()
+print(set1)
 
+set1 = ([1, 2, 3, 4, 5])
+print(set1)
+
+set2 = ([1, 2, 3, 5, 4])
+print(set2)
+set1 == set2
