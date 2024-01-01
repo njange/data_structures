@@ -20,4 +20,3 @@ print(set1)
 
 set2 = ([1, 2, 3, 5, 4])
 print(set2)
-set1 == set2
