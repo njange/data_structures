@@ -19,3 +19,5 @@ print(stack)
 
 print(stack.get())
 
+# Timeout parameter
+print(stack.get(timeout=1))
