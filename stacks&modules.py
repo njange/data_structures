@@ -18,3 +18,4 @@ stack.put(30)
 print(stack)
 
 print(stack.get())
+
