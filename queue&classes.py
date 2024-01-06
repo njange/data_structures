@@ -28,3 +28,5 @@ print(q1)
 print(q1.get())
 print(q1.get())
 print(q1.get())
+
+# Priority Queue
