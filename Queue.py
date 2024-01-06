@@ -7,3 +7,13 @@
 # isFull: Check if the queue is full.
 # peek: Get the value of the front of the queue without removing it.
 
+queue = []
+queue.append(10)
+print(queue)
+queue.append(20)
+queue.append(30)
+print(queue)
+
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue.pop(0))
