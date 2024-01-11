@@ -115,3 +115,14 @@ space complexity of linked list:
 2. Assign the data to the new node.
 3. Set the next pointer of the new node to point to the current head.
 4. Set the head pointer to point to the new node.
+5. Return the head pointer.
+6. Repeat steps 1-5 until all nodes have been created.
+
+#Process of adding a node to the end of a singly linked list:
+1. Create a new node and allocate memory for it.
+2. Assign the data to the new node.
+3. Set the next pointer of the new node to NULL.
+4. Set the next pointer of the current tail to point to the new node.
+5. Set the tail pointer to point to the new node.
+6. Return the head pointer.
+7. Repeat steps 1-6 until all nodes have been created.
