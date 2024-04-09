@@ -24,3 +24,7 @@ add_before(self, data, x):
 
 LL1 = LinkedList()
 LL1.add_begin(10)
+
+LL1.add_begin(20)
+
+LL1.add_begin(30)
