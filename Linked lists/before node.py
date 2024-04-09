@@ -21,3 +21,6 @@ add_before(self, data, x):
         new_node.ref = n.ref
         n.ref = new_node
         return
+
+LL1 = LinkedList()
+LL1.add_begin(10)
