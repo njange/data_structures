@@ -20,3 +20,4 @@ add_before(self, data, x):
         new_node = Node(data)
         new_node.ref = n.ref
         n.ref = new_node
+        return
