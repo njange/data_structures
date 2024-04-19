@@ -28,3 +28,5 @@ LL1.add_begin(10)
 LL1.add_begin(20)
 
 LL1.add_begin(30)
+
+LL1.add_after(25, 20)
